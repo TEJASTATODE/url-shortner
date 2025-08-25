@@ -44,12 +44,12 @@ export default function Admin() {
                 <tr key={url._id}>
                   <td>
                     <a
-                      href={`http://localhost:8000/${url.shortCode}`}
+                      href={`https://url-shortner-20g4.onrender.com/${url.shortCode}`}
                       target="_blank"
                       rel="noreferrer"
                       className="short-link"
                     >
-                      {`http://localhost:8000/${url.shortCode}`}
+                      {`https://url-shortner-20g4.onrender.com/${url.shortCode}`}
                     </a>
                   </td>
                   <td className="truncate">{url.longUrl}</td>

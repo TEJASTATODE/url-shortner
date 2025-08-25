@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 app.use(cors(
     {
-        origin: "http://localhost:5173", // Frontend URL
+        origin: "https://url-shortner-um3a.vercel.app", // Frontend URL
         credentials: true,
     }
 ));
