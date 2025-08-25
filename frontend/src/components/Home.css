@@ -1,0 +1,72 @@
+.home-container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.home-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.url-input {
+  padding: 12px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.url-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.shorten-btn {
+  padding: 12px 24px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.shorten-btn:hover {
+  background: #0056b3;
+}
+
+.shorten-btn:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.shortened-url {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.shortened-url a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.shortened-url a:hover {
+  text-decoration: underline;
+}
